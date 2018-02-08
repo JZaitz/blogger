@@ -6,5 +6,5 @@
     <%= link_to "delete", tag_path(@tag), method: :delete, data: {confirm: "Really delete #{tag.name} tag?"} %>
   <% end %>
 </ul>
-<%= link_to "delete", tags_path(@tag), method: :delete, data: {confirm: "Really delete the tag?"} %>
+
 <BR /><%= link_to "Back to tags", tags_path %>
